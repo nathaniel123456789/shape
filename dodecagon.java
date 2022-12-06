@@ -4,9 +4,9 @@ public class dodecagon implements Shape {
     private int sides;
     private double sideLength;
     private double angle;
-    public dodecagon(int aSideLength, String acolor) {
+    public dodecagon(int aSides, int aSideLength, String acolor) {
         color = acolor;
-        sides = 12;
+        sides = aSides;
         sideLength = aSideLength;
     }
     public double getArea() {
